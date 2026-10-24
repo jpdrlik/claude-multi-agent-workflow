@@ -1,0 +1,17 @@
+{
+  "description": "After Claude edits or writes a JavaScript file, run ESLint --fix on it using the project's own ESLint.",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write|MultiEdit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/scripts/lint-on-save.js\"",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}

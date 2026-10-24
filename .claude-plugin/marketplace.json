@@ -1,0 +1,17 @@
+{
+  "name": "quality-crew-marketplace",
+  "owner": {
+    "name": "Jean"
+  },
+  "metadata": {
+    "description": "Jean's Claude Code plugins. Currently: quality-crew, a code-quality workflow for Node/Express projects."
+  },
+  "plugins": [
+    {
+      "name": "quality-crew",
+      "source": "./",
+      "description": "Review, find untested behavior and write the missing tests in one command.",
+      "version": "0.1.0"
+    }
+  ]
+}

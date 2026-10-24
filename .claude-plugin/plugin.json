@@ -1,0 +1,9 @@
+{
+  "name": "quality-crew",
+  "version": "0.1.0",
+  "description": "A code-quality crew for Node/Express projects: a reviewer, a coverage scout and a test writer run as one workflow, plus a test-conventions skill and an ESLint hook.",
+  "author": {
+    "name": "Jean"
+  },
+  "keywords": ["code-quality", "review", "tests", "subagents", "workflow"]
+}
